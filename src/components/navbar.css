@@ -1,0 +1,27 @@
+*h1{
+  font-weight:800;
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  font-weight:800;
+
+    align-items: center; 
+    justify-content: center;
+}
+
+
+.person{
+  /* background-color: red; */
+border-width: 1px;
+}
+.person :active{
+  background-color: pink;
+}
+.nav-tabs{
+  border-width: 1px
+}
+
+#last{
+  color: black;
+}
