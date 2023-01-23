@@ -12,7 +12,8 @@
 
 
 .person{
-  /* background-color: red; */
+  color: blue !important;
+  background-color: red;
 border-width: 1px;
 }
 .person :active{

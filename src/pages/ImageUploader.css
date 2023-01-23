@@ -1,4 +1,11 @@
-.Image{
+/* .Image{
 position: relative;
-gap:"3rem"
 }
+
+.Image img{
+    position: absolute;
+    margin-left: -6.2rem;
+}
+.delete{
+margin-left: 10rem;
+} */

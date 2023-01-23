@@ -11,7 +11,11 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import "./navbar.css"
 import Services from '../pages/Services';
+import TabContainer from '../pages/TabContainer';
 const navbar = () => {
+
+ 
+
   return (
     <div className='contianer w-100 mt-2'>
       <Navbar expand="lg">
@@ -43,33 +47,10 @@ const navbar = () => {
 
       <div className='container w-50 '>
 
-        <h2 className='center mt-5'> Create Profile</h2>
+        <h1 className='center mt-5'> Create Profile</h1>
 
-        <Tabs style={{ alignItem: "center", justifyContent: "center" }}
-          defaultActiveKey="Personal"
-          className="mb-3 mt-5 person"
-        >
-          <Tab  style={{color:"black"}}
-          eventKey="Personal" title="Personal">
-            <Personal />
-
-          </Tab>
-          <Tab style={{color:"black"}} eventKey="Professional" title="Professional">
-            <Professional />
-
-          </Tab>
-          <Tab style={{color:"black"}} eventKey="Services" title="Services" >
-<Services/>
-          </Tab>
-          <Tab className='last' style={{color:"black"}} eventKey="Portfolio" title="Portfolio" >
-<Portfolio/>
-          </Tab>
-        </Tabs>
-
-
-
-
-
+<MultiStepForm/>
+<br/>
       </div>
     </div>
   )

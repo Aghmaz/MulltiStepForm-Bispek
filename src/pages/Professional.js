@@ -54,8 +54,8 @@ const Professional = () => {
 </div>
 
 
-        <Button className=" mb-3 mt-3" variant="outline-primary" type="submit">back</Button>
-        <Button style={{ float: "right" }} className=" mb-3 mt-3" type="submit">next</Button>
+        {/* <Button className=" mb-3 mt-3" variant="outline-primary" type="submit">back</Button>
+        <Button style={{ float: "right" }} className=" mb-3 mt-3" type="submit">next</Button> */}
       </div>
     </div>
   )

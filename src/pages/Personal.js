@@ -17,7 +17,7 @@ const Personal = () => {
             <h5 className='mt-4'>Profile Photo</h5>
             <div className='rounded'>
                 <ImageUploader/>
-                <p style={{fontSize:"11px"}}>
+                <p className='mt-3' style={{fontSize:"11px"}}>
                     Add your profile photo.The recommended size is 300 x 300px.
                 </p>
             </div>
@@ -122,7 +122,7 @@ const Personal = () => {
         </Form.Group>
       </Row>
       
-      <Button style={{float:"right"}} className=" mb-3" type="submit">Next</Button>
+      {/* <Button style={{float:"right"}} className=" mb-3" type="submit">Next</Button> */}
     </Form>
             </div>
         </div>
